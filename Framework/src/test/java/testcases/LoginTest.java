@@ -8,9 +8,6 @@ import pages.LoginPage;
 
 public class LoginTest extends BaseClass 
 {
-	
-	
-	//this is commit by bharati
 	@Test(priority=1)
 	public void loginApp()
 	{
@@ -23,7 +20,6 @@ public class LoginTest extends BaseClass
 		
 		loginpage.loginToCRM(excel.getStringData("LoginPage", 0, 0),excel.getStringData("LoginPage", 0, 1));
 		logger.pass("login success");
-		
 	}
 	
 }
