@@ -9,6 +9,8 @@ import pages.LoginPage;
 public class LoginTest extends BaseClass 
 {
 	
+	
+	//this is commit by bharati
 	@Test(priority=1)
 	public void loginApp()
 	{
